@@ -9,6 +9,9 @@ namespace SGJVI.Level
         [SerializeField]
         private Enemy[] enemies;
 
+        [SerializeField]
+        private TriggerLevel[] triggersLevel;
+
         private void Awake()
         {
             DisableLevel();
@@ -28,6 +31,11 @@ namespace SGJVI.Level
             {
                 enemies[i].enabled = false;
             }
+        }
+
+        public Vector3 GetRandomTriggerLevelPosition()
+        {
+            return triggersLevel[Random.Range(0, triggersLevel.Length)].transform.position;
         }
 	}
 }

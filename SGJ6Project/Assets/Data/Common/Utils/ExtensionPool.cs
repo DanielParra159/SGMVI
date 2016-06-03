@@ -62,7 +62,7 @@ namespace Common.Utils
                 }
                 else
                 {
-                    Debug.LogWarning("La pool de " + prefab.name + "está vacia, considerar incrementar el valor de creación");
+                    Debug.LogWarning("La pool de " + prefab.name + " está vacia, considerar incrementar el valor de creación");
                     result = GameObject.Instantiate<GameObject>(prefab);
                     activeObjects.Add(result, prefabPool);
                 }
@@ -91,6 +91,8 @@ namespace Common.Utils
                 Debug.Log("Reciclamos " + instance.name);
                 activeObjects.Remove(instance);
                 instance.SetActive(false);
+                instance.transform.SetParent(null);
+                instance.transform.position = Vector3.zero;
                 prefabPool.Add(instance);
             }
             else
