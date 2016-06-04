@@ -7,13 +7,14 @@ namespace SGJVI.Characters
     public class Character : MonoBehaviour
     {
 
-        // Use this for initialization
-        void Start()
+
+
+
+		void Start()
         {
             LevelManager.Instance.MainCharacter = this;
         }
-
-        // Update is called once per frame
+			
         void Update()
         {
 
