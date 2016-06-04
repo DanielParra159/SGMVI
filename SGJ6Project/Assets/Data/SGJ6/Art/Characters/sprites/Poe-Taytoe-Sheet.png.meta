@@ -1,0 +1,255 @@
+fileFormatVersion: 2
+guid: 309ff1f7954461d45a070f5cd8448c7c
+timeCreated: 1465012517
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Poe-Taytoe-Sheet_0
+    21300002: Poe-Taytoe-Sheet_1
+    21300004: Poe-Taytoe-Sheet_2
+    21300006: Poe-Taytoe-Sheet_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Poe-Taytoe-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 9
+        width: 531
+        height: 846
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 172.5, y: -377}
+        - {x: 174.5, y: -372}
+        - {x: 175.5, y: -347}
+        - {x: 172.5, y: -322}
+        - {x: 168.5, y: -289}
+        - {x: 164.5, y: -263}
+        - {x: 154.5, y: -207}
+        - {x: 144.5, y: -161}
+        - {x: 137.5, y: -128}
+        - {x: 127.5, y: -96}
+        - {x: 142.5, y: -79}
+        - {x: 157.5, y: -59}
+        - {x: 167.5, y: -44}
+        - {x: 173.5, y: -34}
+        - {x: 191.5, y: 2}
+        - {x: 200.5, y: 24}
+        - {x: 208.5, y: 45}
+        - {x: 231.5, y: 45}
+        - {x: 235.5, y: 51}
+        - {x: 242.5, y: 55}
+        - {x: 242.5, y: 78}
+        - {x: 247.5, y: 73}
+        - {x: 250.5, y: 72}
+        - {x: 252.5, y: 78}
+        - {x: 243.5, y: 91}
+        - {x: 231.5, y: 139}
+        - {x: 245.5, y: 142}
+        - {x: 265.5, y: 150}
+        - {x: 265.5, y: 157}
+        - {x: 260.5, y: 166}
+        - {x: 262.5, y: 168}
+        - {x: 261.5, y: 171}
+        - {x: 245.5, y: 179}
+        - {x: 237.5, y: 188}
+        - {x: 224.5, y: 225}
+        - {x: 212.5, y: 242}
+        - {x: 198.5, y: 256}
+        - {x: 188.5, y: 261}
+        - {x: 186.5, y: 265}
+        - {x: 189.5, y: 278}
+        - {x: 180.5, y: 290}
+        - {x: 149.5, y: 322}
+        - {x: 119.5, y: 347}
+        - {x: 107.5, y: 355}
+        - {x: 70.5, y: 373}
+        - {x: 63.5, y: 374}
+        - {x: -10.5, y: 396}
+        - {x: -25.5, y: 408}
+        - {x: -30.5, y: 419}
+        - {x: -36.5, y: 421}
+        - {x: -37.5, y: 418}
+        - {x: -36.5, y: 412}
+        - {x: -41.5, y: 410}
+        - {x: -53.5, y: 423}
+        - {x: -59.5, y: 423}
+        - {x: -61.5, y: 411}
+        - {x: -61.5, y: 392}
+        - {x: -58.5, y: 385}
+        - {x: -83.5, y: 385}
+        - {x: -101.5, y: 383}
+        - {x: -178.5, y: 372}
+        - {x: -211.5, y: 372}
+        - {x: -231.5, y: 376}
+        - {x: -248.5, y: 389}
+        - {x: -257.5, y: 388}
+        - {x: -255.5, y: 378}
+        - {x: -251.5, y: 366}
+        - {x: -262.5, y: 372}
+        - {x: -265.5, y: 372}
+        - {x: -265.5, y: 366}
+        - {x: -248.5, y: 351}
+        - {x: -240.5, y: 334}
+        - {x: -226.5, y: 315}
+        - {x: -209.5, y: 297}
+        - {x: -208.5, y: 279}
+        - {x: -233.5, y: 270}
+        - {x: -255.5, y: 267}
+        - {x: -257.5, y: 262}
+        - {x: -240.5, y: 253}
+        - {x: -219.5, y: 249}
+        - {x: -233.5, y: 249}
+        - {x: -234.5, y: 246}
+        - {x: -233.5, y: 243}
+        - {x: -205.5, y: 223}
+        - {x: -237.5, y: 194}
+        - {x: -245.5, y: 189}
+        - {x: -244.5, y: 186}
+        - {x: -238.5, y: 186}
+        - {x: -234.5, y: 165}
+        - {x: -252.5, y: 148}
+        - {x: -253.5, y: 145}
+        - {x: -247.5, y: 142}
+        - {x: -236.5, y: 142}
+        - {x: -240.5, y: 134}
+        - {x: -240.5, y: 131}
+        - {x: -238.5, y: 129}
+        - {x: -236.5, y: 129}
+        - {x: -227.5, y: 137}
+        - {x: -249.5, y: 94}
+        - {x: -256.5, y: 80}
+        - {x: -264.5, y: 51}
+        - {x: -265.5, y: 43}
+        - {x: -265.5, y: -11}
+        - {x: -263.5, y: -30}
+        - {x: -247.5, y: -66}
+        - {x: -231.5, y: -89}
+        - {x: -210.5, y: -111}
+        - {x: -179.5, y: -134}
+        - {x: -158.5, y: -144}
+        - {x: -175.5, y: -196}
+        - {x: -183.5, y: -220}
+        - {x: -192.5, y: -252}
+        - {x: -202.5, y: -300}
+        - {x: -207.5, y: -326}
+        - {x: -210.5, y: -347}
+        - {x: -210.5, y: -366}
+        - {x: -208.5, y: -371}
+        - {x: -194.5, y: -386}
+        - {x: -186.5, y: -392}
+        - {x: -165.5, y: -404}
+        - {x: -138.5, y: -414}
+        - {x: -103.5, y: -421}
+        - {x: -75.5, y: -423}
+        - {x: 51.5, y: -423}
+        - {x: 87.5, y: -418}
+        - {x: 122.5, y: -409}
+        - {x: 158.5, y: -392}
+    - name: Poe-Taytoe-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 629
+        width: 128
+        height: 172
+      alignment: 9
+      pivot: {x: 0.80921316, y: 0.9273504}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -103.579285, y: -154.50427}
+        - {x: -102.579285, y: -159.50427}
+        - {x: -25.579285, y: -159.50427}
+        - {x: 24.420715, y: -118.50427}
+        - {x: 24.420715, y: 1.4957275}
+        - {x: 18.420715, y: 12.495728}
+        - {x: -24.579285, y: 12.495728}
+        - {x: -30.579285, y: 9.495728}
+        - {x: -103.579285, y: -71.50427}
+    - name: Poe-Taytoe-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 388
+        width: 103
+        height: 120
+      alignment: 9
+      pivot: {x: 0.48627597, y: 0.8887245}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -50.086426, y: 13.353058}
+        - {x: -50.086426, y: -42.646942}
+        - {x: -33.086426, y: -106.64694}
+        - {x: 25.913574, y: -106.64694}
+        - {x: 52.913574, y: -52.646942}
+        - {x: 52.913574, y: 8.353058}
+        - {x: 30.913574, y: 13.353058}
+    - name: Poe-Taytoe-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 138
+        width: 103
+        height: 117
+      alignment: 9
+      pivot: {x: 0.5, y: 0.87452894}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: 14.680115}
+        - {x: -51.5, y: 0.68011475}
+        - {x: -51.5, y: -47.319885}
+        - {x: -13.5, y: -102.319885}
+        - {x: 21.5, y: -102.319885}
+        - {x: 51.5, y: -57.319885}
+        - {x: 51.5, y: 14.680115}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
