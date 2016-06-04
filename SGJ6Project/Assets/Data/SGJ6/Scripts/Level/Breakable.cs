@@ -17,6 +17,8 @@ namespace SGJVI.Level {
             if (maxLife == 0)
             {
                 //Break
+                gameObject.SetActive(false);
+                //TODO:
             }
             return (maxLife == 0);
         }
