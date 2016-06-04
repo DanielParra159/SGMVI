@@ -295,7 +295,7 @@ namespace SGJVI.Level {
                     --levelsToMove;
                     BackLevel();
                 }
-                character.transform.DOMove(previousLevels[levelIndex - 2].GetComponent<Level>().GetRandomTriggerLevelPosition()+ new Vector3(0,-11,0), currentLevelTransitionDuration);
+                character.transform.DOMove(previousLevels[levelIndex - 3].GetComponent<Level>().GetRandomTriggerLevelPosition()+ new Vector3(0,-11,0), currentLevelTransitionDuration);
                 currentLevelTransitionDuration = normalLevelTransitionDuration;
             }
         }

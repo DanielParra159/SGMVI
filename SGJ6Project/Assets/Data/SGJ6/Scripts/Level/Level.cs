@@ -43,8 +43,6 @@ namespace SGJVI.Level
 
         public Vector3 GetRandomTriggerLevelPosition()
         {
-            Debug.Log(triggersLevel[0].transform.position);
-            Debug.Break();
             return triggersLevel[Random.Range(0, triggersLevel.Length)].transform.position;
         }
 

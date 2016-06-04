@@ -18,5 +18,15 @@ namespace SGJVI.Characters
         {
 
         }
+
+        public void ChangeDirection(InputCharacter.SwipeDirection dir)
+        {
+            Debug.Log("ChangeDirection " + dir);
+        }
+
+        public void Jump()
+        {
+            Debug.Log("Jump");
+        }
     }
 }
