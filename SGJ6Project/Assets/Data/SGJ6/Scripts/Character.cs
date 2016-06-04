@@ -13,8 +13,9 @@ namespace SGJVI.Characters
 
 		private PlatformerCharacter2D m_Character;
 		private bool m_Jump;
-		private float direction;
+		private float direction, lastDirection;
 		private bool crouch;
+
 
 		private void Awake()
 		{
@@ -36,6 +37,7 @@ namespace SGJVI.Characters
 			// Pass all parameters to the character control script.
 			m_Character.Move(direction, crouch, m_Jump);
 			m_Jump = false;
+			crouch = false;
 		}
 
         public void ChangeDirection(InputCharacter.SwipeDirection dir)
@@ -65,6 +67,9 @@ namespace SGJVI.Characters
         public void BreakBlock()
         {
             Debug.Log("BreakBlock");
+			crouch = true;
+			lastDirection = direction;
+			direction = 0;
         }
     }
 }
