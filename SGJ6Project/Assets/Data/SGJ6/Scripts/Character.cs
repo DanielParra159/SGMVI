@@ -50,6 +50,16 @@ namespace SGJVI.Characters
 
 			}
 
+            Vector2 beginRay = transform.position + new Vector3(0.0f,0.5f,0.0f);
+            Vector2 endRay = new Vector2(direction, 0);
+
+            RaycastHit2D impact = Physics2D.Raycast(beginRay, endRay, 0.5f, SGJVI.Core.GameLayers.WallMask);
+
+            if (impact.collider != null)
+            {
+                direction *= -1;
+            }
+
 		}
 
         public void ChangeDirection(InputCharacter.SwipeDirection dir)
