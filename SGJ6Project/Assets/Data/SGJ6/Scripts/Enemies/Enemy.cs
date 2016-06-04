@@ -1,12 +1,11 @@
 ﻿using UnityEngine;
 
 using SGJVI.Level;
+using UnityStandardAssets._2D;
 
 namespace SGJVI.Enemies
 {
-    [RequireComponent(typeof(Rigidbody2D))]
-    [RequireComponent(typeof(BoxCollider2D))]
-    [RequireComponent(typeof(Animator))]
+    [RequireComponent(typeof(PlatformerCharacter2D))]
 	public class Enemy : MonoBehaviour {
 
         public enum ENEMY_TYPES
@@ -34,13 +33,18 @@ namespace SGJVI.Enemies
             }
         }
 
-        private Animator myAnimator = null;
-
-        private ENEMY_DIRECTION currentDir;
+        [SerializeField]
+        private int numLevelsToMove = 0;
+ 
+        [SerializeField]
+        private Enemy.ENEMY_TYPES enemyType = 0;
 
         [SerializeField]
-        private EnemyStats enemyStats;
+        private Enemy.ENEMY_DIRECTION enemyDir = 0;
+        private float direction;
+
         private BoxCollider2D myBoxCollider;
+        private PlatformerCharacter2D m_Character;
 		
         private void Awake()
         {
@@ -52,15 +56,19 @@ namespace SGJVI.Enemies
                     myBoxCollider = boxes[i];
                 }
             }
-            myAnimator = gameObject.GetComponent<Animator>();
-            currentDir = enemyStats.EnemyDir;
-            myAnimator.SetBool("Mirror", ((currentDir == ENEMY_DIRECTION.Left) ? false : true));
+
+            Vector3 theScale = transform.localScale;
+            theScale.x *= -1;
+            transform.localScale = theScale;
+
+            m_Character = GetComponent<PlatformerCharacter2D>();
+            direction = -1.0f;
         }
 
-		// Update is called once per frame
-		private void Update () {
-		
-		}
+        private void FixedUpdate()
+        {
+            m_Character.Move(direction, false, false);
+        }
 
         private void OnDisable()
         {
@@ -80,13 +88,11 @@ namespace SGJVI.Enemies
             {
                 Debug.Log("Enemigo colisionando con jugador");
                 myBoxCollider.isTrigger = false; 
-                LevelManager.Instance.CharacterCollideWithEnemy(enemyStats.EnemyType, enemyStats.NumLevelsToMove);
+                LevelManager.Instance.CharacterCollideWithEnemy(enemyType, numLevelsToMove);
             } 
             else if (((1 << other.gameObject.layer) & Core.GameLayers.InvisibleEnemyWall) != 0)
             {
-                //Camiamos de dirección
-                currentDir = currentDir == ENEMY_DIRECTION.Left ? ENEMY_DIRECTION.Right : ENEMY_DIRECTION.Left;
-                myAnimator.SetBool("Mirror", ((currentDir == ENEMY_DIRECTION.Left) ? false : true));
+                direction *= -1;
             }
         }
 	}
