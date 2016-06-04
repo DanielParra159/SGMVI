@@ -28,6 +28,9 @@ namespace SGJVI.Level {
         private GameObject initialLevel;
         private GameObject initialLevelInstance;
         [SerializeField]
+        private GameObject secondLevel;
+        private GameObject secondLevelInstance;
+        [SerializeField]
         private GameObject [] levels;
         //private List<GameObject> currentLevels = new List<GameObject>(3);
         private const int MAX_PREVIOUS_LEVELS = 10;
@@ -64,6 +67,7 @@ namespace SGJVI.Level {
                     levels[i].CreatePool(true,1);
                 }
                 initialLevel.CreatePool(true, 1);
+                secondLevel.CreatePool(true, 1);
                 rootLevel = new GameObject("rootLevel").transform;
                 auxRootLevel = new GameObject("auxRootLevel").transform;
             }
@@ -81,8 +85,8 @@ namespace SGJVI.Level {
                 ResetLevel();
 
 
-                Invoke("AdvanceLevel", 1.0f);
-                Invoke("AdvanceLevel", 4.0f);
+                //Invoke("AdvanceLevel", 1.0f);
+                //Invoke("AdvanceLevel", 4.0f);
             }
 		}
 
@@ -105,8 +109,13 @@ namespace SGJVI.Level {
             initialLevelInstance.SetActive(true);
             previousLevels.Add(initialLevelInstance);
 
+            secondLevelInstance = secondLevel.SpawnPool(new Vector3(0, -9, 0));
+            secondLevelInstance.transform.SetParent(rootLevel);
+            secondLevelInstance.SetActive(true);
+            previousLevels.Add(secondLevelInstance);
+
             int auxRandom = StaticRandom.RandomRange(0, levels.Length);
-            for (int i = 0; i < 9; ++i)
+            for (int i = 0; i < 8; ++i)
             {
                 lastRandom = auxRandom;
                 GameObject auxGameObject = levels[auxRandom].SpawnPool();
@@ -116,7 +125,7 @@ namespace SGJVI.Level {
                     auxRandom = StaticRandom.RandomRange(0, levels.Length);
                 }
             }
-            for (int i = 1; i < 4; ++i)
+            for (int i = 2; i < 4; ++i)
             {
                 ++levelIndex;
                 previousLevels[i].transform.transform.position = new Vector3(0, (-i*levelHeight) / 100, 0);
@@ -153,7 +162,6 @@ namespace SGJVI.Level {
                 if (previousLevels[i].activeSelf)
                     previousLevels[i].GetComponent<Level>().DisableLevel();
             }
-            character.transform.DOMove(previousLevels[levelIndex].GetComponent<Level>().GetRandomTriggerLevelPosition(), currentLevelTransitionDuration);
             rootLevel.DOMoveY(-9, currentLevelTransitionDuration).OnComplete(NotyfyBackLevelTransitionComplete);
         }
 
@@ -235,13 +243,13 @@ namespace SGJVI.Level {
                 {
                     auxRandom = StaticRandom.RandomRange(0, levels.Length);
                 }
-                auxGameObject = levels[auxRandom].SpawnPool(new Vector3(0, -levelHeight / 100, 0));
+                auxGameObject = levels[auxRandom].SpawnPool(new Vector3(0, (-2*levelHeight) / 100, 0));
                 previousLevels.Add(auxGameObject);
                 lastRandom = auxRandom;
             }
             else
             {
-                previousLevels[levelIndex].transform.position = new Vector3(0, -levelHeight / 100, 0);
+                previousLevels[levelIndex].transform.position = new Vector3(0, (-2*levelHeight) / 100, 0);
             }
 
             previousLevels[levelIndex].transform.SetParent(rootLevel);
@@ -287,6 +295,7 @@ namespace SGJVI.Level {
                     --levelsToMove;
                     BackLevel();
                 }
+                character.transform.DOMove(previousLevels[levelIndex - 2].GetComponent<Level>().GetRandomTriggerLevelPosition()+ new Vector3(0,-11,0), currentLevelTransitionDuration);
                 currentLevelTransitionDuration = normalLevelTransitionDuration;
             }
         }

@@ -23,6 +23,10 @@ namespace SGJVI.Level
             {
                 enemies[i].enabled = true;
             }
+            for (int i = 0; i < triggersLevel.Length; ++i)
+            {
+                triggersLevel[i].enabled = true;
+            }
         }
 
         public void DisableLevel()
@@ -31,11 +35,22 @@ namespace SGJVI.Level
             {
                 enemies[i].enabled = false;
             }
+            for (int i = 0; i < triggersLevel.Length; ++i)
+            {
+                triggersLevel[i].enabled = false;
+            }
         }
 
         public Vector3 GetRandomTriggerLevelPosition()
         {
+            Debug.Log(triggersLevel[0].transform.position);
+            Debug.Break();
             return triggersLevel[Random.Range(0, triggersLevel.Length)].transform.position;
+        }
+
+        public void LevelComplete()
+        {
+            
         }
 	}
 }

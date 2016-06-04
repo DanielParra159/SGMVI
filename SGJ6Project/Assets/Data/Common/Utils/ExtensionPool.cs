@@ -58,7 +58,6 @@ namespace Common.Utils
                     activeObjects.Add(result, prefabPool);
                     prefabPool.RemoveAt(0);
                     result.SetActive(true);
-                    Debug.Log("Spawn de " + prefab.name + ", lo sacamos de la pool");
                 }
                 else
                 {
@@ -88,7 +87,6 @@ namespace Common.Utils
             List<GameObject> prefabPool = null;
             if (activeObjects.TryGetValue(instance, out prefabPool))
             {
-                Debug.Log("Reciclamos " + instance.name);
                 activeObjects.Remove(instance);
                 instance.SetActive(false);
                 instance.transform.SetParent(null);
@@ -108,7 +106,6 @@ namespace Common.Utils
             List<GameObject> prefabPool = null;
             if (ExtensionPool.pools.TryGetValue(prefab, out prefabPool))
             {
-                Debug.Log("Borrando la pool de " + prefab.name);
                 for (int i = 0; i < prefabPool.Count; ++i)
                 {
                     GameObject.Destroy(prefabPool[i]);
