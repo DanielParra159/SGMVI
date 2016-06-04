@@ -11,5 +11,15 @@ namespace PONME_NAMESPACE {
             get { return maxLife; }
         }
 
+        public bool Hit()
+        {
+            --maxLife;
+            if (maxLife == 0)
+            {
+                //Break
+            }
+            return (maxLife == 0);
+        }
+
 	}
 }
