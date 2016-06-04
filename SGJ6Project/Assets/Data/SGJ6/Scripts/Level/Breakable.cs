@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace PONME_NAMESPACE {
+namespace SGJVI.Level {
 
 	public class Breakable : MonoBehaviour {
 

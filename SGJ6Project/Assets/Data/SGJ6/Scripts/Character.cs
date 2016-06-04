@@ -96,6 +96,10 @@ namespace SGJVI.Characters
 				direction = 0;
 				breakBlockTime = Time.time;
 
+				Breakable breakable = impact.collider.GetComponent<Breakable> ();
+
+				breakable.Hit ();
+
 			}
 
 
