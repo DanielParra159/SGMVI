@@ -1,0 +1,1119 @@
+fileFormatVersion: 2
+guid: 62e86f06cf2c04647b120217c35c78ca
+timeCreated: 1465066298
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Maalik_0
+    21300002: Maalik_1
+    21300004: Maalik_2
+    21300006: Maalik_3
+    21300008: Maalik_4
+    21300010: Maalik_5
+    21300012: Maalik_6
+    21300014: Maalik_7
+    21300016: Maalik_8
+    21300018: Maalik_9
+    21300020: Maalik_10
+    21300022: Maalik_11
+    21300024: Maalik_12
+    21300026: Maalik_13
+    21300028: Maalik_14
+    21300030: Maalik_15
+    21300032: Maalik_16
+    21300034: Maalik_17
+    21300036: Maalik_18
+    21300038: Maalik_19
+    21300040: Maalik_20
+    21300042: Maalik_21
+    21300044: Maalik_22
+    21300046: Maalik_23
+    21300048: Maalik_24
+    21300050: Maalik_25
+    21300052: Maalik_26
+    21300054: Maalik_27
+    21300056: Maalik_28
+    21300058: Maalik_29
+    21300060: Maalik_30
+    21300062: Maalik_31
+    21300064: Maalik_32
+    21300066: Maalik_33
+    21300068: Maalik_34
+    21300070: Maalik_35
+    21300072: Maalik_36
+    21300074: Maalik_37
+    21300076: Maalik_38
+    21300078: Maalik_39
+    21300080: Maalik_40
+    21300082: Maalik_41
+    21300084: Maalik_42
+    21300086: Maalik_43
+    21300088: Maalik_44
+    21300090: Maalik_45
+    21300092: Maalik_46
+    21300094: Maalik_47
+    21300096: Maalik_48
+    21300098: Maalik_49
+    21300100: Maalik_50
+    21300102: Maalik_51
+    21300104: Maalik_52
+    21300106: Maalik_53
+    21300108: Maalik_54
+    21300110: Maalik_55
+    21300112: Maalik_56
+    21300114: Maalik_57
+    21300116: Maalik_58
+    21300118: Maalik_59
+    21300120: Maalik_60
+    21300122: Maalik_61
+    21300124: Maalik_62
+    21300126: Maalik_63
+    21300128: Maalik_64
+    21300130: Maalik_65
+    21300132: Maalik_66
+    21300134: Maalik_67
+    21300136: Maalik_68
+    21300138: Maalik_69
+    21300140: Maalik_70
+    21300142: Maalik_71
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Maalik_0
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1085
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_1
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1069
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_2
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1053
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_3
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1037
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_4
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 220
+        width: 763
+        height: 810
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64.5, y: -399}
+        - {x: 93.5, y: -393}
+        - {x: 128.5, y: -379}
+        - {x: 154.5, y: -367}
+        - {x: 171.5, y: -357}
+        - {x: 177.5, y: -353}
+        - {x: 186.5, y: -346}
+        - {x: 194.5, y: -340}
+        - {x: 200.5, y: -335}
+        - {x: 207.5, y: -329}
+        - {x: 228.5, y: -308}
+        - {x: 239.5, y: -295}
+        - {x: 250.5, y: -281}
+        - {x: 257.5, y: -270}
+        - {x: 263.5, y: -260}
+        - {x: 273.5, y: -239}
+        - {x: 276.5, y: -232}
+        - {x: 281.5, y: -219}
+        - {x: 286.5, y: -204}
+        - {x: 290.5, y: -189}
+        - {x: 292.5, y: -180}
+        - {x: 294.5, y: -169}
+        - {x: 296.5, y: -155}
+        - {x: 297.5, y: -145}
+        - {x: 297.5, y: -95}
+        - {x: 296.5, y: -85}
+        - {x: 295.5, y: -77}
+        - {x: 292.5, y: -60}
+        - {x: 289.5, y: -48}
+        - {x: 307.5, y: -38}
+        - {x: 313.5, y: -34}
+        - {x: 326.5, y: -24}
+        - {x: 331.5, y: -20}
+        - {x: 351.5, y: 0}
+        - {x: 358.5, y: 9}
+        - {x: 365.5, y: 19}
+        - {x: 373.5, y: 37}
+        - {x: 377.5, y: 48}
+        - {x: 379.5, y: 56}
+        - {x: 381.5, y: 66}
+        - {x: 381.5, y: 127}
+        - {x: 380.5, y: 135}
+        - {x: 379.5, y: 140}
+        - {x: 376.5, y: 154}
+        - {x: 375.5, y: 159}
+        - {x: 372.5, y: 170}
+        - {x: 371.5, y: 178}
+        - {x: 365.5, y: 192}
+        - {x: 361.5, y: 202}
+        - {x: 351.5, y: 224}
+        - {x: 344.5, y: 236}
+        - {x: 338.5, y: 245}
+        - {x: 328.5, y: 258}
+        - {x: 315.5, y: 272}
+        - {x: 304.5, y: 281}
+        - {x: 295.5, y: 288}
+        - {x: 281.5, y: 298}
+        - {x: 260.5, y: 308}
+        - {x: 250.5, y: 312}
+        - {x: 241.5, y: 315}
+        - {x: 230.5, y: 318}
+        - {x: 221.5, y: 320}
+        - {x: 215.5, y: 321}
+        - {x: 208.5, y: 322}
+        - {x: 197.5, y: 323}
+        - {x: 165.5, y: 323}
+        - {x: 154.5, y: 322}
+        - {x: 146.5, y: 321}
+        - {x: 135.5, y: 319}
+        - {x: 125.5, y: 317}
+        - {x: 105.5, y: 312}
+        - {x: 90.5, y: 307}
+        - {x: 81.5, y: 303}
+        - {x: 71.5, y: 299}
+        - {x: 55.5, y: 291}
+        - {x: 54.5, y: 295}
+        - {x: 50.5, y: 305}
+        - {x: 39.5, y: 328}
+        - {x: 36.5, y: 333}
+        - {x: 32.5, y: 339}
+        - {x: 26.5, y: 347}
+        - {x: 4.5, y: 369}
+        - {x: -4.5, y: 376}
+        - {x: -19.5, y: 386}
+        - {x: -26.5, y: 389}
+        - {x: -35.5, y: 393}
+        - {x: -46.5, y: 397}
+        - {x: -53.5, y: 399}
+        - {x: -61.5, y: 401}
+        - {x: -76.5, y: 404}
+        - {x: -82.5, y: 405}
+        - {x: -157.5, y: 405}
+        - {x: -168.5, y: 403}
+        - {x: -181.5, y: 400}
+        - {x: -190.5, y: 397}
+        - {x: -208.5, y: 390}
+        - {x: -231.5, y: 379}
+        - {x: -236.5, y: 376}
+        - {x: -250.5, y: 367}
+        - {x: -258.5, y: 361}
+        - {x: -266.5, y: 354}
+        - {x: -275.5, y: 346}
+        - {x: -290.5, y: 331}
+        - {x: -297.5, y: 323}
+        - {x: -308.5, y: 310}
+        - {x: -312.5, y: 304}
+        - {x: -321.5, y: 290}
+        - {x: -333.5, y: 265}
+        - {x: -338.5, y: 252}
+        - {x: -340.5, y: 246}
+        - {x: -344.5, y: 233}
+        - {x: -348.5, y: 215}
+        - {x: -350.5, y: 202}
+        - {x: -351.5, y: 193}
+        - {x: -352.5, y: 174}
+        - {x: -352.5, y: 166}
+        - {x: -351.5, y: 165}
+        - {x: -351.5, y: 146}
+        - {x: -350.5, y: 137}
+        - {x: -349.5, y: 129}
+        - {x: -347.5, y: 118}
+        - {x: -344.5, y: 103}
+        - {x: -342.5, y: 95}
+        - {x: -340.5, y: 84}
+        - {x: -336.5, y: 75}
+        - {x: -344.5, y: 74}
+        - {x: -350.5, y: 72}
+        - {x: -362.5, y: 65}
+        - {x: -373.5, y: 52}
+        - {x: -378.5, y: 42}
+        - {x: -381.5, y: 33}
+        - {x: -381.5, y: -1}
+        - {x: -375.5, y: -10}
+        - {x: -377.5, y: -15}
+        - {x: -380.5, y: -26}
+        - {x: -380.5, y: -45}
+        - {x: -379.5, y: -53}
+        - {x: -372.5, y: -64}
+        - {x: -362.5, y: -73}
+        - {x: -359.5, y: -76}
+        - {x: -353.5, y: -79}
+        - {x: -353.5, y: -100}
+        - {x: -351.5, y: -110}
+        - {x: -348.5, y: -118}
+        - {x: -344.5, y: -127}
+        - {x: -338.5, y: -135}
+        - {x: -331.5, y: -142}
+        - {x: -321.5, y: -149}
+        - {x: -322.5, y: -155}
+        - {x: -322.5, y: -187}
+        - {x: -321.5, y: -195}
+        - {x: -320.5, y: -201}
+        - {x: -319.5, y: -206}
+        - {x: -317.5, y: -215}
+        - {x: -314.5, y: -225}
+        - {x: -308.5, y: -242}
+        - {x: -297.5, y: -266}
+        - {x: -293.5, y: -273}
+        - {x: -284.5, y: -287}
+        - {x: -272.5, y: -303}
+        - {x: -240.5, y: -335}
+        - {x: -229.5, y: -344}
+        - {x: -222.5, y: -350}
+        - {x: -214.5, y: -355}
+        - {x: -204.5, y: -362}
+        - {x: -192.5, y: -369}
+        - {x: -173.5, y: -378}
+        - {x: -164.5, y: -382}
+        - {x: -148.5, y: -388}
+        - {x: -133.5, y: -393}
+        - {x: -122.5, y: -396}
+        - {x: -105.5, y: -400}
+        - {x: -95.5, y: -402}
+        - {x: -89.5, y: -403}
+        - {x: -75.5, y: -405}
+        - {x: 27.5, y: -405}
+        - {x: 42.5, y: -403}
+        - {x: 54.5, y: -401}
+    - name: Maalik_5
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1021
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_6
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 1005
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_7
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 989
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_8
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 973
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_9
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 957
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_10
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 941
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_11
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 925
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_12
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 909
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_13
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 893
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_14
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 877
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_15
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 861
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_16
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 845
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_17
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 829
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_18
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 813
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_19
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 797
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_20
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 781
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_21
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 765
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_22
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 749
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_23
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 733
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_24
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 717
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_25
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 701
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_26
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 685
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_27
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 669
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_28
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 653
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_29
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 637
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_30
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 621
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_31
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 605
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_32
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 589
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_33
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 573
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_34
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 557
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_35
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 541
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_36
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 525
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_37
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 509
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_38
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 493
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_39
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 477
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_40
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 461
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_41
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 445
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_42
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 429
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_43
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 413
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_44
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 397
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_45
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 381
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_46
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 365
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_47
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 349
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_48
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 333
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_49
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 317
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_50
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 301
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_51
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 285
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_52
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 269
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_53
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 253
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_54
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 237
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_55
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 221
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_56
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 205
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_57
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 189
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_58
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 0
+        width: 133
+        height: 179
+      alignment: 9
+      pivot: {x: 0.49999964, y: 0.8333223}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5000458, y: -149.16469}
+        - {x: 2.5000458, y: -146.16469}
+        - {x: -21.499954, y: -146.16469}
+        - {x: -22.499954, y: -149.16469}
+      - - {x: -49.499954, y: 29.835312}
+        - {x: -66.499954, y: 29.835312}
+        - {x: -66.499954, y: -53.16469}
+        - {x: -36.499954, y: -139.16469}
+        - {x: 18.500046, y: -139.16469}
+        - {x: 66.500046, y: -53.16469}
+        - {x: 66.500046, y: -8.164688}
+        - {x: 43.500046, y: 5.835312}
+    - name: Maalik_59
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 18
+        width: 133
+        height: 166
+      alignment: 9
+      pivot: {x: 0.45921704, y: 0.81585896}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -61.075867, y: -66.43259}
+        - {x: -15.075867, y: -135.43259}
+        - {x: 44.924133, y: -135.43259}
+        - {x: 50.924133, y: -131.43259}
+        - {x: 71.92413, y: -26.432587}
+        - {x: 71.92413, y: 30.567413}
+        - {x: 37.924133, y: 30.567413}
+        - {x: -61.075867, y: -2.4325867}
+    - name: Maalik_60
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 173
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_61
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 157
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_62
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 141
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_63
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 125
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_64
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 109
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_65
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 93
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_66
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 77
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_67
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 61
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_68
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 45
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_69
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 29
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_70
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 13
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Maalik_71
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 0
+        width: 5
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
