@@ -61,5 +61,10 @@ namespace SGJVI.Characters
 			m_Jump = true;
 
         }
+
+        public void BreakBlock()
+        {
+            Debug.Log("BreakBlock");
+        }
     }
 }

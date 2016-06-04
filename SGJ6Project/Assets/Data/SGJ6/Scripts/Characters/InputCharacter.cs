@@ -91,19 +91,23 @@ namespace SGJVI.Characters {
                 character.Jump();
             }
             //swipe down
-            if (currentSwipe.y < 0 && currentSwipe.x > -0.5f && currentSwipe.x < 0.5f)
+             else if (currentSwipe.y < 0 && currentSwipe.x > -0.5f && currentSwipe.x < 0.5f)
             {
 
             }
             //swipe left
-            if (currentSwipe.x < 0 && currentSwipe.y > -0.5f && currentSwipe.y < 0.5f)
+            else if (currentSwipe.x < 0 && currentSwipe.y > -0.5f && currentSwipe.y < 0.5f)
             {
                 character.ChangeDirection(SwipeDirection.Left);
             }
             //swipe right
-            if (currentSwipe.x > 0 && currentSwipe.y > -0.5f && currentSwipe.y < 0.5f)
+            else if (currentSwipe.x > 0 && currentSwipe.y > -0.5f && currentSwipe.y < 0.5f)
             {
                 character.ChangeDirection(SwipeDirection.Right);
+            }
+            else
+            {
+                character.BreakBlock();
             }
         }
 	}
