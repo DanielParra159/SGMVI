@@ -1,12 +1,12 @@
 ﻿using UnityEngine;
 
 using SGJVI.Level;
-using UnityStandardAssets._2D;
 
 namespace SGJVI.Enemies
 {
-    [RequireComponent(typeof(PlatformerCharacter2D))]
     [RequireComponent(typeof(Rigidbody2D))]
+    [RequireComponent(typeof(BoxCollider2D))]
+    [RequireComponent(typeof(Animator))]
 	public class Enemy : MonoBehaviour {
 
         public enum ENEMY_TYPES
@@ -34,18 +34,13 @@ namespace SGJVI.Enemies
             }
         }
 
-        [SerializeField]
+        private Animator myAnimator = null;
+
         private ENEMY_DIRECTION currentDir;
-        [SerializeField]
-        private ENEMY_TYPES enemyType = 0;
-        [SerializeField]
-        private int numLevelsToMove = 0;
 
+        [SerializeField]
+        private EnemyStats enemyStats;
         private BoxCollider2D myBoxCollider;
-
-        private PlatformerCharacter2D m_Character;
-        private bool m_Jump;
-
 		
         private void Awake()
         {
@@ -57,8 +52,9 @@ namespace SGJVI.Enemies
                     myBoxCollider = boxes[i];
                 }
             }
-
-            m_Character = GetComponent<PlatformerCharacter2D>();
+            myAnimator = gameObject.GetComponent<Animator>();
+            currentDir = enemyStats.EnemyDir;
+            myAnimator.SetBool("Mirror", ((currentDir == ENEMY_DIRECTION.Left) ? false : true));
         }
 
 		// Update is called once per frame
@@ -84,19 +80,14 @@ namespace SGJVI.Enemies
             {
                 Debug.Log("Enemigo colisionando con jugador");
                 myBoxCollider.isTrigger = false; 
-                LevelManager.Instance.CharacterCollideWithEnemy(enemyType, numLevelsToMove);
+                LevelManager.Instance.CharacterCollideWithEnemy(enemyStats.EnemyType, enemyStats.NumLevelsToMove);
             } 
             else if (((1 << other.gameObject.layer) & Core.GameLayers.InvisibleEnemyWall) != 0)
             {
                 //Camiamos de dirección
                 currentDir = currentDir == ENEMY_DIRECTION.Left ? ENEMY_DIRECTION.Right : ENEMY_DIRECTION.Left;
+                myAnimator.SetBool("Mirror", ((currentDir == ENEMY_DIRECTION.Left) ? false : true));
             }
-        }
-
-        private void FixedUpdate()
-        {
-            // Pass all parameters to the character control script.
-            m_Character.Move(((currentDir == ENEMY_DIRECTION.Left) ? -1.0f : 1.0f), false, false);
         }
 	}
 }
