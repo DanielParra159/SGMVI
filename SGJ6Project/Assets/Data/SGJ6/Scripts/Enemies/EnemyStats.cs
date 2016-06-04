@@ -26,5 +26,12 @@ namespace SGJVI.Enemies {
             get { return enemyType; }
         }
 
+        [SerializeField]
+        private Enemy.ENEMY_DIRECTION enemyDir = 0;
+        public Enemy.ENEMY_DIRECTION EnemyDir
+        {
+            get { return enemyDir; }
+        }
+
 	}
 }

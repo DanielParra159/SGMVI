@@ -29,5 +29,10 @@ namespace SGJVI.Characters
         {
             Debug.Log("Jump");
         }
+
+        public void BreakBlock()
+        {
+            Debug.Log("BreakBlock");
+        }
     }
 }
