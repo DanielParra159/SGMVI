@@ -13,35 +13,48 @@ namespace SGJVI.Characters
 
 		private PlatformerCharacter2D m_Character;
 		private bool m_Jump;
-		private float direction, lastDirection;
-		private bool crouch;
+		private float direction, lastDirection, breakBlockTime;
+		[SerializeField]
+		[Range (0.01f, 0.5f)]
+		private float timeBetweemTouch = 0;
+		private bool breakBlock;
 
 
 		private void Awake()
 		{
+			
 			m_Character = GetComponent<PlatformerCharacter2D>();
 			direction = -1.0f;
+			lastDirection = direction;
+
 		}
 
 		void Start()
         {
+			
             LevelManager.Instance.MainCharacter = this;
+
         }
 			
 
 		private void FixedUpdate()
 		{
-			// Read the inputs.
-
-
-			// Pass all parameters to the character control script.
-			m_Character.Move(direction, crouch, m_Jump);
+			
+			m_Character.Move(direction, breakBlock, m_Jump);
 			m_Jump = false;
-			crouch = false;
+
+			if (breakBlock == true && (breakBlockTime + timeBetweemTouch) < Time.time) {
+
+				breakBlock = false;
+				direction = lastDirection;
+
+			}
+
 		}
 
         public void ChangeDirection(InputCharacter.SwipeDirection dir)
         {
+			
             Debug.Log("ChangeDirection " + dir);
 
 			if (dir == InputCharacter.SwipeDirection.Left) {
@@ -53,12 +66,12 @@ namespace SGJVI.Characters
 				direction = 1.0f;
 
 			}
-
-
+		
         }
 
         public void Jump()
         {
+			
             Debug.Log("Jump");
 			m_Jump = true;
 
@@ -66,10 +79,28 @@ namespace SGJVI.Characters
 
         public void BreakBlock()
         {
+			
             Debug.Log("BreakBlock");
-			crouch = true;
-			lastDirection = direction;
-			direction = 0;
+
+
+			Vector2 beginRay = transform.position;
+			Vector2 endRay = new Vector2 (0, -1);
+
+			RaycastHit2D impact = Physics2D.Raycast (beginRay, endRay, 1.0f, SGJVI.Core.GameLayers.BreakableMask);
+
+			if (impact.collider != null) {
+
+				Debug.Log ("Impact");
+				breakBlock = true;
+				lastDirection = direction;
+				direction = 0;
+				breakBlockTime = Time.time;
+
+			}
+
+
+
+
         }
     }
 }

@@ -22,6 +22,7 @@ namespace SGJVI.Core {
 
         public static int ObstaclesMask = (1 << LAYER_FLOOR) | (1 << LAYER_WALL) | (1 << LAYER_BREAKABLE);
         public static int FloorMask = (1 << LAYER_FLOOR);
+		public static int BreakableMask = (1 << LAYER_BREAKABLE);
         public static int PlayerMask = (1 << LAYER_CHARACTER);
         public static int EnemiesMask = (1 << LAYER_ENEMY);
         public static int InvisibleEnemyWall = (1 << LAYER_INVISIBLE_ENEMY_WALL);
