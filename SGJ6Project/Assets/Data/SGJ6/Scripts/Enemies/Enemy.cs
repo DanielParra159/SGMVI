@@ -6,12 +6,19 @@ namespace SGJVI.Enemies
 {
     [RequireComponent(typeof(Rigidbody2D))]
     [RequireComponent(typeof(BoxCollider2D))]
+    [RequireComponent(typeof(Animator))]
 	public class Enemy : MonoBehaviour {
 
         public enum ENEMY_TYPES
         {
             Enemy,
             Ally
+        }
+
+        public enum ENEMY_DIRECTION
+        {
+            Left,
+            Right
         }
 
         private Rigidbody2D myRigidbody = null;
@@ -27,6 +34,10 @@ namespace SGJVI.Enemies
             }
         }
 
+        private Animator myAnimator = null;
+
+        private ENEMY_DIRECTION currentDir;
+
         [SerializeField]
         private EnemyStats enemyStats;
         private BoxCollider2D myBoxCollider;
@@ -41,6 +52,9 @@ namespace SGJVI.Enemies
                     myBoxCollider = boxes[i];
                 }
             }
+            myAnimator = gameObject.GetComponent<Animator>();
+            currentDir = enemyStats.EnemyDir;
+            myAnimator.SetBool("Mirror", ((currentDir == ENEMY_DIRECTION.Left) ? false : true));
         }
 
 		// Update is called once per frame
@@ -67,6 +81,12 @@ namespace SGJVI.Enemies
                 Debug.Log("Enemigo colisionando con jugador");
                 myBoxCollider.isTrigger = false; 
                 LevelManager.Instance.CharacterCollideWithEnemy(enemyStats.EnemyType, enemyStats.NumLevelsToMove);
+            } 
+            else if (((1 << other.gameObject.layer) & Core.GameLayers.InvisibleEnemyWall) != 0)
+            {
+                //Camiamos de dirección
+                currentDir = currentDir == ENEMY_DIRECTION.Left ? ENEMY_DIRECTION.Right : ENEMY_DIRECTION.Left;
+                myAnimator.SetBool("Mirror", ((currentDir == ENEMY_DIRECTION.Left) ? false : true));
             }
         }
 	}
