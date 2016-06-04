@@ -17,6 +17,8 @@ namespace PONME_NAMESPACE {
             if (maxLife == 0)
             {
                 //Break
+                gameObject.SetActive(false);
+                //TODO:
             }
             return (maxLife == 0);
         }
