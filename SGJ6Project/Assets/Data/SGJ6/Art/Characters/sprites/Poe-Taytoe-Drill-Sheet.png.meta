@@ -1,0 +1,253 @@
+fileFormatVersion: 2
+guid: 449df4f4674052544a5dd2c227dd22c7
+timeCreated: 1465030112
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Poe-Taytoe-Drill-Sheet_0
+    21300002: Poe-Taytoe-Drill-Sheet_1
+    21300004: Poe-Taytoe-Drill-Sheet_2
+    21300006: Poe-Taytoe-Drill-Sheet_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Poe-Taytoe-Drill-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 58
+        width: 531
+        height: 846
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 122.5, y: -408}
+        - {x: 138.5, y: -403}
+        - {x: 159.5, y: -391}
+        - {x: 171.5, y: -378}
+        - {x: 175.5, y: -371}
+        - {x: 174.5, y: -325}
+        - {x: 171.5, y: -307}
+        - {x: 164.5, y: -258}
+        - {x: 158.5, y: -218}
+        - {x: 149.5, y: -174}
+        - {x: 133.5, y: -115}
+        - {x: 129.5, y: -102}
+        - {x: 126.5, y: -96}
+        - {x: 135.5, y: -87}
+        - {x: 155.5, y: -63}
+        - {x: 170.5, y: -42}
+        - {x: 197.5, y: 11}
+        - {x: 206.5, y: 35}
+        - {x: 208.5, y: 45}
+        - {x: 231.5, y: 45}
+        - {x: 243.5, y: 57}
+        - {x: 243.5, y: 78}
+        - {x: 248.5, y: 73}
+        - {x: 251.5, y: 73}
+        - {x: 253.5, y: 76}
+        - {x: 243.5, y: 93}
+        - {x: 235.5, y: 122}
+        - {x: 227.5, y: 139}
+        - {x: 249.5, y: 142}
+        - {x: 265.5, y: 149}
+        - {x: 265.5, y: 158}
+        - {x: 254.5, y: 162}
+        - {x: 261.5, y: 166}
+        - {x: 263.5, y: 168}
+        - {x: 262.5, y: 171}
+        - {x: 247.5, y: 178}
+        - {x: 235.5, y: 193}
+        - {x: 230.5, y: 210}
+        - {x: 219.5, y: 232}
+        - {x: 212.5, y: 243}
+        - {x: 197.5, y: 257}
+        - {x: 189.5, y: 261}
+        - {x: 188.5, y: 270}
+        - {x: 188.5, y: 276}
+        - {x: 185.5, y: 284}
+        - {x: 174.5, y: 298}
+        - {x: 144.5, y: 328}
+        - {x: 114.5, y: 350}
+        - {x: 103.5, y: 357}
+        - {x: 79.5, y: 370}
+        - {x: 51.5, y: 379}
+        - {x: 18.5, y: 387}
+        - {x: -15.5, y: 398}
+        - {x: -33.5, y: 421}
+        - {x: -46.5, y: 419}
+        - {x: -50.5, y: 423}
+        - {x: -58.5, y: 423}
+        - {x: -61.5, y: 413}
+        - {x: -61.5, y: 397}
+        - {x: -57.5, y: 386}
+        - {x: -82.5, y: 385}
+        - {x: -108.5, y: 382}
+        - {x: -177.5, y: 372}
+        - {x: -210.5, y: 372}
+        - {x: -230.5, y: 376}
+        - {x: -249.5, y: 389}
+        - {x: -255.5, y: 387}
+        - {x: -255.5, y: 381}
+        - {x: -252.5, y: 369}
+        - {x: -265.5, y: 373}
+        - {x: -265.5, y: 366}
+        - {x: -243.5, y: 345}
+        - {x: -240.5, y: 337}
+        - {x: -228.5, y: 317}
+        - {x: -206.5, y: 295}
+        - {x: -196.5, y: 290}
+        - {x: -207.5, y: 279}
+        - {x: -232.5, y: 270}
+        - {x: -249.5, y: 267}
+        - {x: -257.5, y: 265}
+        - {x: -254.5, y: 259}
+        - {x: -227.5, y: 250}
+        - {x: -238.5, y: 247}
+        - {x: -229.5, y: 240}
+        - {x: -193.5, y: 242}
+        - {x: -204.5, y: 222}
+        - {x: -232.5, y: 197}
+        - {x: -244.5, y: 189}
+        - {x: -243.5, y: 185}
+        - {x: -233.5, y: 186}
+        - {x: -218.5, y: 193}
+        - {x: -252.5, y: 147}
+        - {x: -251.5, y: 144}
+        - {x: -239.5, y: 141}
+        - {x: -239.5, y: 131}
+        - {x: -236.5, y: 129}
+        - {x: -230.5, y: 131}
+        - {x: -246.5, y: 99}
+        - {x: -257.5, y: 75}
+        - {x: -262.5, y: 52}
+        - {x: -265.5, y: 39}
+        - {x: -265.5, y: -5}
+        - {x: -263.5, y: -17}
+        - {x: -259.5, y: -37}
+        - {x: -252.5, y: -52}
+        - {x: -241.5, y: -73}
+        - {x: -231.5, y: -87}
+        - {x: -207.5, y: -112}
+        - {x: -189.5, y: -127}
+        - {x: -159.5, y: -146}
+        - {x: -174.5, y: -195}
+        - {x: -185.5, y: -231}
+        - {x: -190.5, y: -247}
+        - {x: -203.5, y: -308}
+        - {x: -210.5, y: -344}
+        - {x: -211.5, y: -368}
+        - {x: -198.5, y: -383}
+        - {x: -177.5, y: -398}
+        - {x: -153.5, y: -409}
+        - {x: -136.5, y: -413}
+        - {x: -114.5, y: -418}
+        - {x: -93.5, y: -421}
+        - {x: -71.5, y: -423}
+        - {x: 47.5, y: -423}
+        - {x: 76.5, y: -419}
+        - {x: 105.5, y: -414}
+    - name: Poe-Taytoe-Drill-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 684
+        width: 128
+        height: 172
+      alignment: 9
+      pivot: {x: 0.8081856, y: 0.9491382}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.447754, y: 8.74823}
+        - {x: -103.447754, y: -85.25177}
+        - {x: -103.447754, y: -147.25177}
+        - {x: -87.447754, y: -163.25177}
+        - {x: -27.447754, y: -163.25177}
+        - {x: 24.552246, y: -62.25177}
+        - {x: 24.552246, y: -5.25177}
+        - {x: 14.552246, y: 8.74823}
+    - name: Poe-Taytoe-Drill-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 362
+        width: 103
+        height: 119
+      alignment: 9
+      pivot: {x: 0.48404196, y: 0.8867421}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -49.856323, y: 13.477692}
+        - {x: -49.856323, y: -50.52231}
+        - {x: -27.856323, y: -105.52231}
+        - {x: 16.143677, y: -105.52231}
+        - {x: 53.143677, y: -53.52231}
+        - {x: 53.143677, y: 1.4776917}
+        - {x: -27.856323, y: 13.477692}
+    - name: Poe-Taytoe-Drill-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 92
+        width: 103
+        height: 117
+      alignment: 9
+      pivot: {x: 0.48404196, y: 0.89335334}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.143677, y: 12.477661}
+        - {x: -49.856323, y: -1.5223389}
+        - {x: -49.856323, y: -44.52234}
+        - {x: -14.856323, y: -104.52234}
+        - {x: 38.143677, y: -104.52234}
+        - {x: 53.143677, y: -38.52234}
+        - {x: 53.143677, y: 12.477661}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
