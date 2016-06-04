@@ -176,7 +176,7 @@ namespace SGJVI.Level {
                 }
             }
             character.transform.SetParent(auxRootLevel);
-
+            --levelIndex;
             rootLevel.transform.position = Vector3.zero;
 
             for (int i = 0; i < previousLevels.Count; ++i)
@@ -295,7 +295,8 @@ namespace SGJVI.Level {
                     --levelsToMove;
                     BackLevel();
                 }
-                character.transform.DOMove(previousLevels[levelIndex - 3].GetComponent<Level>().GetRandomTriggerLevelPosition()+ new Vector3(0,-11,0), currentLevelTransitionDuration);
+                Debug.Log(levelIndex);
+                character.transform.DOMove(previousLevels[levelIndex - 3].GetComponent<Level>().GetRandomTriggerLevelPosition()+ new Vector3(0,0,0), currentLevelTransitionDuration);
                 currentLevelTransitionDuration = normalLevelTransitionDuration;
             }
         }
