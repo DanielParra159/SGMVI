@@ -7,7 +7,7 @@ namespace SGJVI {
 
 		// Use this for initialization
 		private void Start () {
-            SceneManager.LoadScene(0, LoadSceneMode.Single);
+            SceneManager.LoadScene(1, LoadSceneMode.Single);
 		}
 		
 	}

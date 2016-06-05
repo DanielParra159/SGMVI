@@ -39,7 +39,9 @@ namespace SGJVI.Level {
                 PlatformEffector2D[] platform = ((Level)target).GetComponentsInChildren<PlatformEffector2D>(true);
                 for (int i = 0; i < platform.Length; ++i)
                 {
-                    platform[i].GetComponent<BoxCollider2D>().usedByEffector = true;
+                    BoxCollider2D box = platform[i].GetComponent<BoxCollider2D>();
+                    if (box != null)
+                        box.usedByEffector = true;
                 }
             }
 

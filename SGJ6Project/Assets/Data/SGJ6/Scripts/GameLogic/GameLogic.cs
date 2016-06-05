@@ -174,8 +174,7 @@ namespace SGJVI.GameLogic {
 
         public void ResetGame()
         {
-            SceneManager.LoadScene(1, LoadSceneMode.Additive);
-            SceneManager.UnloadScene(0);
+            SceneManager.LoadScene(2, LoadSceneMode.Single);
         }
 	}
 }
