@@ -14,6 +14,9 @@ public class AudioManager : MonoBehaviour {
 	private AudioSource audioSource;
 
 	[SerializeField]
+	private AudioClip swipe;
+
+	[SerializeField]
 	private AudioClip jump;
 
 	[SerializeField]
@@ -45,6 +48,12 @@ public class AudioManager : MonoBehaviour {
 
 	}
 		
+
+	public void PlaySoundSwipe () {
+
+		audioSource.PlayOneShot (swipe);
+
+	}
 
 	public void PlaySoundJump () {
 

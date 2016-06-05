@@ -70,10 +70,12 @@ namespace SGJVI.Characters
 
 			if (dir == InputCharacter.SwipeDirection.Left) {
 
+				AudioManager.Instance.PlaySoundSwipe ();
 				direction = -1.0f;
 
 			} else {
 
+				AudioManager.Instance.PlaySoundSwipe ();
 				direction = 1.0f;
 
 			}
