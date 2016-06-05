@@ -41,6 +41,8 @@ public class AudioManager : MonoBehaviour {
 
 		}
 
+		audioSource = GetComponent<AudioSource> ();
+
 	}
 
 	public void PlaySoundJump () {

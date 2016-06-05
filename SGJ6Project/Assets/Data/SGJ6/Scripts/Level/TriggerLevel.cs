@@ -27,7 +27,7 @@ namespace SGJVI.Level {
             if (((1 << other.gameObject.layer) & Core.GameLayers.PlayerMask) != 0)
             {
                 Debug.Log("Jugador colisionando con TriggerLevel");
-			//	AudioManager.Instance.PlaySoundDown ();
+				AudioManager.Instance.PlaySoundDown ();
                 myBoxCollider.isTrigger = false; 
                 LevelManager.Instance.AdvanceLevel();
             }
