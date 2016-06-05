@@ -1,0 +1,124 @@
+fileFormatVersion: 2
+guid: c29f1203900fd014b9fb9d33b6e9b877
+timeCreated: 1465133472
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: animationSTORY_0
+    21300002: animationSTORY_1
+    21300004: animationSTORY_2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: animationSTORY_0
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 347
+        width: 1103
+        height: 1950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -233.99707, y: 417.92438}
+        - {x: -235.99707, y: 415.92438}
+        - {x: -235.99707, y: -415.07562}
+        - {x: -233.99707, y: -417.07562}
+        - {x: 235.00293, y: -417.07562}
+        - {x: 237.00293, y: -415.07562}
+        - {x: 237.00293, y: 415.92438}
+        - {x: 235.00293, y: 417.92438}
+    - name: animationSTORY_1
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 347
+        width: 1106
+        height: 1950
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 237.3584, y: 414.92438}
+        - {x: 234.3584, y: 417.92438}
+        - {x: -234.6416, y: 417.92438}
+        - {x: -236.6416, y: 415.92438}
+        - {x: -236.6416, y: -415.07562}
+        - {x: -235.6416, y: -417.07562}
+        - {x: 234.3584, y: -417.07562}
+        - {x: 237.3584, y: -414.07562}
+    - name: animationSTORY_2
+      rect:
+        serializedVersion: 2
+        x: 3178
+        y: 356
+        width: 1125
+        height: 1943
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 241.3451, y: -128.72598}
+        - {x: 237.3451, y: -123.72598}
+        - {x: 233.3451, y: -121.72598}
+        - {x: 233.3451, y: 415.27402}
+        - {x: 232.3451, y: 416.27402}
+        - {x: -231.6549, y: 416.27402}
+        - {x: -232.6549, y: 415.27402}
+        - {x: -232.6549, y: -122.72598}
+        - {x: -236.6549, y: -123.72598}
+        - {x: -240.6549, y: -126.72598}
+        - {x: -240.6549, y: -411.72598}
+        - {x: -236.6549, y: -415.72598}
+        - {x: 236.3451, y: -415.72598}
+        - {x: 239.3451, y: -413.72598}
+        - {x: 241.3451, y: -412.72598}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
