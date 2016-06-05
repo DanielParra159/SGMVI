@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using SGJVI.Characters;
+using UnityEngine;
 
 namespace SGJVI.Level {
 
@@ -11,6 +12,9 @@ namespace SGJVI.Level {
             get { return maxLife; }
         }
 
+        [SerializeField]
+        private float energyToAdd;
+
         public bool Hit()
         {
             --maxLife;
@@ -18,6 +22,7 @@ namespace SGJVI.Level {
             {
                 //Break
                 gameObject.SetActive(false);
+                CharacterHUD.Instance.addTime(energyToAdd);
                 //TODO:
             }
             return (maxLife == 0);

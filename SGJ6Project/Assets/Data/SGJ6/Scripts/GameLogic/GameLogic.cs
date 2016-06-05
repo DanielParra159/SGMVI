@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace SGJVI.GameLogic {
 
@@ -20,6 +21,8 @@ namespace SGJVI.GameLogic {
 		private GameObject audioManager;
 		[SerializeField]
         private GameObject rootCanvas;
+        [SerializeField]
+        private GameObject gameOverCanvas;
 
         [SerializeField]
         private GameObject touchTutorial;
@@ -46,6 +49,12 @@ namespace SGJVI.GameLogic {
                 Destroy(gameObject);
             }
         }
+
+        private void OnDestroy()
+        {
+            instance = null;
+        }
+
 		// Use this for initialization
 		private void Start () {
             if (instance == this)
@@ -55,6 +64,8 @@ namespace SGJVI.GameLogic {
                 player = Instantiate(player);
                 levelManager = Instantiate(levelManager);
 				audioManager = Instantiate (audioManager);
+                gameOverCanvas = rootCanvas.GetComponentInChildren<GameOverMenu>().gameObject;
+                gameOverCanvas.SetActive(false);
             }
 		}
 		
@@ -154,6 +165,18 @@ namespace SGJVI.GameLogic {
         public void StartGame()
         {
             Time.timeScale = 1;
+        }
+
+        public void EndGame()
+        {
+            Time.timeScale = 0;
+            gameOverCanvas.SetActive(true);
+        }
+
+        public void ResetGame()
+        {
+            SceneManager.LoadScene(1, LoadSceneMode.Additive);
+            SceneManager.UnloadScene(0);
         }
 	}
 }

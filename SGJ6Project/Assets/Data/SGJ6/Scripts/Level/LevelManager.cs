@@ -78,6 +78,11 @@ namespace SGJVI.Level {
             }
         }
 
+        private void OnDestroy()
+        {
+            instance = null;
+        }
+
 		// Use this for initialization
 		private void Start () {
             if (instance == this)

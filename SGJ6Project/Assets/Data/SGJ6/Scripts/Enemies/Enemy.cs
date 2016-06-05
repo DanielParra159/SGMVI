@@ -57,10 +57,6 @@ namespace SGJVI.Enemies
                 }
             }
 
-            Vector3 theScale = transform.localScale;
-            theScale.x *= -1;
-            transform.localScale = theScale;
-
             m_Character = GetComponent<PlatformerCharacter2D>();
             direction = -1.0f;
         }
