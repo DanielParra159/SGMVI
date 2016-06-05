@@ -85,7 +85,7 @@ namespace SGJVI.Characters
 			
             Debug.Log("Jump");
 
-			AudioManager.Instance.PlaySoundJump ();
+			//AudioManager.Instance.PlaySoundJump ();
 
 			m_Jump = true;
 
@@ -96,7 +96,7 @@ namespace SGJVI.Characters
 			
             Debug.Log("BreakBlock");
 
-			AudioManager.Instance.PlaySoundBreakBlock ();
+			//AudioManager.Instance.PlaySoundBreakBlock ();
 
 
 			Vector2 beginRay = transform.position;

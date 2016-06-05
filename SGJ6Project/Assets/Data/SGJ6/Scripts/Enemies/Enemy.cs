@@ -87,7 +87,7 @@ namespace SGJVI.Enemies
             if ( ((1 << other.gameObject.layer) & Core.GameLayers.PlayerMask) != 0 )
             {
                 Debug.Log("Enemigo colisionando con jugador");
-				AudioManager.Instance.PlaySoundUp ();
+				//AudioManager.Instance.PlaySoundUp ();
                 myBoxCollider.isTrigger = false; 
                 LevelManager.Instance.CharacterCollideWithEnemy(enemyType, numLevelsToMove);
             } 
