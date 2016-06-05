@@ -14,7 +14,7 @@ namespace SGJVI.Level
 
         private void Awake()
         {
-            DisableLevel();
+            //DisableLevel();
         }
 
         public void EnableLevel()

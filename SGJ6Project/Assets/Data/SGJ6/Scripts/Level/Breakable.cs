@@ -15,6 +15,9 @@ namespace SGJVI.Level {
         [SerializeField]
         private float energyToAdd;
 
+        [SerializeField]
+        private GameObject breakObject;
+
         public bool Hit()
         {
             --maxLife;
@@ -23,6 +26,11 @@ namespace SGJVI.Level {
                 //Break
                 gameObject.SetActive(false);
                 CharacterHUD.Instance.addTime(energyToAdd);
+                if (breakObject != null)
+                {
+                    breakObject = (GameObject)Instantiate(breakObject, transform.position, Quaternion.identity);
+                    Destroy(breakObject, 0.5f);
+                }
                 //TODO:
             }
             return (maxLife == 0);

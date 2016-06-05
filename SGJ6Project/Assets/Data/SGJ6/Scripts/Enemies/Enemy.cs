@@ -80,8 +80,11 @@ namespace SGJVI.Enemies
 
         private void OnTriggerEnter2D(Collider2D other)
         {
+            
             if ( ((1 << other.gameObject.layer) & Core.GameLayers.PlayerMask) != 0 )
             {
+                gameObject.SetActive(false);
+                return;
                 Debug.Log("Enemigo colisionando con jugador");
 				AudioManager.Instance.PlaySoundUp ();
                 myBoxCollider.isTrigger = false; 

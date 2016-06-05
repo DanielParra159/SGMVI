@@ -61,7 +61,7 @@ namespace SGJVI.GameLogic {
                 Time.timeScale = 0;
                 rootCanvas = Instantiate(rootCanvas);
                 player = Instantiate(player);
-                levelManager = Instantiate(levelManager);
+                //levelManager = Instantiate(levelManager);
 				audioManager = Instantiate (audioManager);
                 gameOverCanvas = rootCanvas.GetComponentInChildren<GameOverMenu>().gameObject;
                 gameOverCanvas.SetActive(false);

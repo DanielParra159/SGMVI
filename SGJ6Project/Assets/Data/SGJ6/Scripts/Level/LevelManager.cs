@@ -135,7 +135,7 @@ namespace SGJVI.Level {
             for (int i = 2; i < 4; ++i)
             {
                 ++levelIndex;
-                previousLevels[i].transform.transform.position = new Vector3(0, (-i*levelHeight) / 100 -5*i, 0);
+                previousLevels[i].transform.transform.position = new Vector3(0, (-i*levelHeight) / 100 -2*i, 0);
                 previousLevels[i].transform.SetParent(rootLevel);
                 previousLevels[i].SetActive(true);
             }
@@ -231,13 +231,13 @@ namespace SGJVI.Level {
                 {
                     auxRandom = StaticRandom.RandomRange(0, levels.Length);
                 }
-                auxGameObject = levels[auxRandom].SpawnPool(new Vector3(0, (-2 * levelHeight) / 100 - 5*2, 0));
+                auxGameObject = levels[auxRandom].SpawnPool(new Vector3(0, (-2 * levelHeight) / 100 - 2*2, 0));
                 previousLevels.Add(auxGameObject);
                 lastRandom = auxRandom;
             }
             else
             {
-                previousLevels[levelIndex].transform.position = new Vector3(0, (-2 * levelHeight) / 100 - 5*2, 0);
+                previousLevels[levelIndex].transform.position = new Vector3(0, (-2 * levelHeight) / 100 - 2*2, 0);
             }
 
             previousLevels[levelIndex].transform.SetParent(rootLevel);

@@ -33,7 +33,7 @@ namespace SGJVI.Characters
 		void Start()
         {
 			
-            LevelManager.Instance.MainCharacter = this;
+            //LevelManager.Instance.MainCharacter = this;
 
         }
 			
