@@ -80,7 +80,7 @@ namespace SGJVI.Characters {
 
                 CommonSwipe();
             }
-            else if (Input.GetButton("Jump"))
+            /*else if (Input.GetButton("Jump"))
             {
                 character.Jump();
             }
@@ -91,7 +91,7 @@ namespace SGJVI.Characters {
              else if (Input.GetButton("Fire1"))
              {
                  character.BreakBlock();
-             }
+             }*/
         }
 
         private void CommonSwipe()
