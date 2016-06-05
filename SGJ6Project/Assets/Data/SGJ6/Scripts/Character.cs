@@ -4,6 +4,8 @@ using SGJVI.Level;
 using UnityStandardAssets.CrossPlatformInput;
 using UnityStandardAssets._2D;
 
+using DG.Tweening;
+
 
 namespace SGJVI.Characters
 
@@ -60,6 +62,10 @@ namespace SGJVI.Characters
             {
                 direction *= -1;
             }
+
+			Vector3 vectorCamera = new Vector3 (Camera.main.transform.position.x, transform.position.y, Camera.main.transform.position.z);
+
+			Camera.main.transform.DOMove (vectorCamera, 0.2f);
 
 		}
 
