@@ -16,7 +16,9 @@ namespace SGJVI.GameLogic {
         private GameObject player;
         [SerializeField]
         private GameObject levelManager;
-        [SerializeField]
+		[SerializeField]
+		private GameObject audioManager;
+		[SerializeField]
         private GameObject rootCanvas;
 
         [SerializeField]
@@ -52,6 +54,7 @@ namespace SGJVI.GameLogic {
                 rootCanvas = Instantiate(rootCanvas);
                 player = Instantiate(player);
                 levelManager = Instantiate(levelManager);
+				audioManager = Instantiate (audioManager);
             }
 		}
 		
