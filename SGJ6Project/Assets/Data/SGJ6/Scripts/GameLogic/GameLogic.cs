@@ -21,7 +21,6 @@ namespace SGJVI.GameLogic {
 		private GameObject audioManager;
 		[SerializeField]
         private GameObject rootCanvas;
-        [SerializeField]
         private GameObject gameOverCanvas;
 
         [SerializeField]

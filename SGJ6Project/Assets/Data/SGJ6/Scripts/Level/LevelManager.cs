@@ -64,6 +64,7 @@ namespace SGJVI.Level {
                 for (int i = 0; i < levels.Length; ++i)
                 {
                     levels[i].SetActive(false);
+                    levels[i].transform.position = new Vector3(0, 0, 0);
                     levels[i].CreatePool(true,1);
                 }
                 initialLevel.CreatePool(true, 1);
@@ -109,12 +110,12 @@ namespace SGJVI.Level {
             }
             previousLevels.Clear();
 
-            initialLevelInstance = initialLevel.SpawnPool(new Vector3(0, 0, 0));
+            initialLevelInstance = initialLevel.SpawnPool(new Vector3(0, 5, 0));
             initialLevelInstance.transform.SetParent(rootLevel);
             initialLevelInstance.SetActive(true);
             previousLevels.Add(initialLevelInstance);
 
-            secondLevelInstance = secondLevel.SpawnPool(new Vector3(0, -9, 0));
+            secondLevelInstance = secondLevel.SpawnPool(new Vector3(0, -levelHeight / 100 + 2, 0));
             secondLevelInstance.transform.SetParent(rootLevel);
             secondLevelInstance.SetActive(true);
             previousLevels.Add(secondLevelInstance);
@@ -134,30 +135,10 @@ namespace SGJVI.Level {
             for (int i = 2; i < 4; ++i)
             {
                 ++levelIndex;
-                previousLevels[i].transform.transform.position = new Vector3(0, (-i*levelHeight) / 100, 0);
+                previousLevels[i].transform.transform.position = new Vector3(0, (-i*levelHeight) / 100 -5*i, 0);
                 previousLevels[i].transform.SetParent(rootLevel);
                 previousLevels[i].SetActive(true);
             }
-
-            /*initialLevelInstance = initialLevel.SpawnPool(new Vector3(0, 0, 0));
-            initialLevelInstance.transform.SetParent(rootLevel);
-            currentLevels.Add(initialLevelInstance);
-
-            int auxRandom = StaticRandom.RandomRange(0, levels.Length);
-            lastRandom = auxRandom;
-            GameObject auxGameObject = levels[auxRandom].SpawnPool(new Vector3(0, -levelHeight / 100, 0));
-            currentLevels.Add(auxGameObject);
-            auxGameObject.transform.SetParent(rootLevel);
-            auxGameObject.SetActive(true);
-            while (lastRandom == auxRandom)
-            {
-                auxRandom = StaticRandom.RandomRange(0, levels.Length);
-            }
-            auxGameObject = levels[auxRandom].SpawnPool(new Vector3(0, (-2 * levelHeight) / 100, 0));
-            currentLevels.Add(auxGameObject);
-            auxGameObject.transform.SetParent(rootLevel);
-            auxGameObject.SetActive(true);
-            lastRandom = auxRandom;*/
         }
 
         public void BackLevel()
@@ -168,7 +149,7 @@ namespace SGJVI.Level {
                 if (previousLevels[i].activeSelf)
                     previousLevels[i].GetComponent<Level>().DisableLevel();
             }
-            rootLevel.DOMoveY(-9, currentLevelTransitionDuration).OnComplete(NotyfyBackLevelTransitionComplete);
+            rootLevel.DOMoveY(-levelHeight / 100 - 5, currentLevelTransitionDuration).OnComplete(NotyfyBackLevelTransitionComplete);
         }
 
         private void NotyfyBackLevelTransitionComplete()
@@ -204,7 +185,7 @@ namespace SGJVI.Level {
                 if (previousLevels[i].activeSelf)
                     previousLevels[i].GetComponent<Level>().DisableLevel();
             }
-            rootLevel.DOMoveY(9, currentLevelTransitionDuration).OnComplete(NotyfyAdvanceLevelTransitionComplete);
+            rootLevel.DOMoveY(levelHeight / 100 - 5, currentLevelTransitionDuration).OnComplete(NotyfyAdvanceLevelTransitionComplete);
         }
 
         private void NotyfyAdvanceLevelTransitionComplete()
@@ -250,36 +231,19 @@ namespace SGJVI.Level {
                 {
                     auxRandom = StaticRandom.RandomRange(0, levels.Length);
                 }
-                auxGameObject = levels[auxRandom].SpawnPool(new Vector3(0, (-2*levelHeight) / 100, 0));
+                auxGameObject = levels[auxRandom].SpawnPool(new Vector3(0, (-2 * levelHeight) / 100 - 5*2, 0));
                 previousLevels.Add(auxGameObject);
                 lastRandom = auxRandom;
             }
             else
             {
-                previousLevels[levelIndex].transform.position = new Vector3(0, (-2*levelHeight) / 100, 0);
+                previousLevels[levelIndex].transform.position = new Vector3(0, (-2 * levelHeight) / 100 - 5*2, 0);
             }
 
             previousLevels[levelIndex].transform.SetParent(rootLevel);
             previousLevels[levelIndex].SetActive(true);
 
-            /*if (levelsOutScreen > 1)
-            {
-                Debug.Log("apagamos el nivel de arriba");
-                --levelsOutScreen;
-                //previousLevels[levelIndex - 5].RecyclePool();
-
-                int auxRandom = lastRandom;
-                while (lastRandom == auxRandom)
-                {
-                    auxRandom = StaticRandom.RandomRange(0, levels.Length);
-                }
-                GameObject auxGameObject = levels[auxRandom].SpawnPool(new Vector3(0, -levelHeight / 100, 0));
-                previousLevels.Add(auxGameObject);
-                auxGameObject.transform.SetParent(rootLevel);
-                auxGameObject.SetActive(true);
-                lastRandom = auxRandom;
-                //Invoke("AdvanceLevel", 4.0f);
-            }*/
+            
         }
 
         public void CharacterCollideWithEnemy(Enemies.Enemy.ENEMY_TYPES enemyType, int levelsToMove)
