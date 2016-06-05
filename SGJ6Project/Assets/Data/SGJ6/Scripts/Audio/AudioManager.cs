@@ -3,10 +3,15 @@ using System.Collections;
 
 public class AudioManager : MonoBehaviour {
 
+	#region Singelton
+	private static AudioManager instance = null;
+	public static AudioManager Instance
+	{
+		get { return instance; }
+	}
+	#endregion
+
 	private AudioSource audioSource;
-
-	public enum listaObjetos {coche, casa};
-
 
 	[SerializeField]
 	private AudioClip jump;
@@ -22,12 +27,21 @@ public class AudioManager : MonoBehaviour {
 
 	private void Awake () {
 
-		audioSource = GetComponent<AudioSource> ();
+		if (instance == null)
+		{
+			
+			instance = this;
 
-		listaObjetos objetos = new listaObjetos { };
+		}
+		else
+		{
+			
+			Debug.LogWarning("Se está creando una segunda instancia de LevelManager");
+			Destroy(gameObject);
+
+		}
 
 	}
-
 
 	public void PlaySoundJump () {
 
@@ -47,7 +61,7 @@ public class AudioManager : MonoBehaviour {
 
 	}
 
-	public void PlaySoundBreackBlock () {
+	public void PlaySoundBreakBlock () {
 
 		audioSource.PlayOneShot (breakBlock);
 

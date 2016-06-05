@@ -4,6 +4,7 @@ using SGJVI.Level;
 using UnityStandardAssets.CrossPlatformInput;
 using UnityStandardAssets._2D;
 
+
 namespace SGJVI.Characters
 
 {
@@ -83,6 +84,9 @@ namespace SGJVI.Characters
         {
 			
             Debug.Log("Jump");
+
+			AudioManager.Instance.PlaySoundJump ();
+
 			m_Jump = true;
 
         }
@@ -91,6 +95,8 @@ namespace SGJVI.Characters
         {
 			
             Debug.Log("BreakBlock");
+
+			AudioManager.Instance.PlaySoundBreakBlock ();
 
 
 			Vector2 beginRay = transform.position;
