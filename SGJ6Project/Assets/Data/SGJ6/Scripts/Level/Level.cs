@@ -25,7 +25,8 @@ namespace SGJVI.Level
             }
             for (int i = 0; i < triggersLevel.Length; ++i)
             {
-                triggersLevel[i].enabled = true;
+                if (triggersLevel[i] != null)
+                    triggersLevel[i].enabled = true;
             }
         }
 
@@ -37,7 +38,8 @@ namespace SGJVI.Level
             }
             for (int i = 0; i < triggersLevel.Length; ++i)
             {
-                triggersLevel[i].enabled = false;
+                if (triggersLevel[i] != null)
+                    triggersLevel[i].enabled = false;
             }
         }
 
@@ -48,7 +50,11 @@ namespace SGJVI.Level
 
         public void LevelComplete()
         {
-            
+            for (int i = 0; i < triggersLevel.Length; ++i)
+            {
+                triggersLevel[i].enabled = false;
+                triggersLevel[i] = null;
+            }
         }
 	}
 }
