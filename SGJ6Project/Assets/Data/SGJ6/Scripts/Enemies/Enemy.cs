@@ -2,6 +2,7 @@
 
 using SGJVI.Level;
 using UnityStandardAssets._2D;
+using SGJVI.Characters;
 
 namespace SGJVI.Enemies
 {
@@ -45,6 +46,9 @@ namespace SGJVI.Enemies
 
         private BoxCollider2D myBoxCollider;
         private PlatformerCharacter2D m_Character;
+
+        [SerializeField]
+        private float energy;
 		
         private void Awake()
         {
@@ -84,6 +88,7 @@ namespace SGJVI.Enemies
             if ( ((1 << other.gameObject.layer) & Core.GameLayers.PlayerMask) != 0 )
             {
                 gameObject.SetActive(false);
+                CharacterHUD.Instance.addTime(-energy);
                 return;
                 Debug.Log("Enemigo colisionando con jugador");
 				AudioManager.Instance.PlaySoundUp ();
