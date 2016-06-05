@@ -96,7 +96,6 @@ namespace SGJVI.Characters
 			
             Debug.Log("BreakBlock");
 
-			AudioManager.Instance.PlaySoundBreakBlock ();
 
 
 			Vector2 beginRay = transform.position;
@@ -115,6 +114,7 @@ namespace SGJVI.Characters
 				Breakable breakable = impact.collider.GetComponent<Breakable> ();
 
 				breakable.Hit ();
+				AudioManager.Instance.PlaySoundBreakBlock ();
 
 			}
 
