@@ -119,6 +119,7 @@ namespace SGJVI.Level {
             {
                 lastRandom = auxRandom;
                 GameObject auxGameObject = levels[auxRandom].SpawnPool();
+                auxGameObject.SetActive(false);
                 previousLevels.Add(auxGameObject);
                 while (lastRandom == auxRandom)
                 {
